@@ -1,4 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.304 sec - in TestSuite
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.041 sec <<< FAILURE! - in TestSuite
+checkValidUser(testCases.Verify_valid_Login)  Time elapsed: 4.361 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: #user_login
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'
+System info: host: 'RAGHAV4535', ip: '169.254.66.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\RAGHAV~1\AppData\Local\Temp\rust_mozprofile.S6y0TDjmIi8O, rotatable=false, timeouts={implicit=0, page load=300000, script=30000}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=52.0.2, platformVersion=6.1, moz:processID=26356, browserName=firefox, platformName=windows_nt}]
+Session ID: 50c0b5cf-beb0-4025-9efc-82c2af2bb7d2
+*** Element info: {Using=id, value=user_login}
+	at testCases.Verify_valid_Login.checkValidUser(Verify_valid_Login.java:27)
+
